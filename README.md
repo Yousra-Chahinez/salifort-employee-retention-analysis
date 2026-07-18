@@ -2,8 +2,6 @@
 
 Predicting which employees are likely to leave the company, using data-driven insights to guide HR retention strategy.
 
-*Capstone project for the Google Advanced Data Analytics Professional Certificate.*
-
 ## Table of Contents
 - [Business Problem](#business-problem)
 - [Dataset](#dataset)
@@ -70,8 +68,6 @@ Because the cost of **missing** an employee who is about to leave (a false negat
 | Decision Tree | — | — | — | — |
 | **Random Forest (champion)** | ~0.99 | — | — | — |
 
-*(Fill in your exact validation/test scores from the notebook output before publishing — see the "Model Selection" and "Results and Evaluation" sections of the notebook.)*
-
 The **Random Forest** model outperformed the Decision Tree and generalized well to unseen data, with validation and test scores closely matching training performance — indicating no significant overfitting.
 
 **Top predictors of attrition** (Random Forest feature importance):
@@ -102,8 +98,8 @@ The **Random Forest** model outperformed the Decision Tree and generalized well 
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git https://github.com/Yousra-Chahinez/salifort-employee-retention-analysis.git
+cd salifort-employee-retention-analysis
 
 # Create a virtual environment (optional but recommended)
 python -m venv venv
@@ -120,12 +116,6 @@ jupyter notebook Salifort_Motors_project_lab.ipynb
 
 - **Python** — pandas, NumPy
 - **Visualization** — Matplotlib, Seaborn
-- **Modeling** — scikit-learn (Decision Tree, Random Forest, GridSearchCV), XGBoost
+- **Modeling** — scikit-learn (Decision Tree, Random Forest, GridSearchCV)
 - **Environment** — Jupyter Notebook
 
-## Author
-
-**[Your Name]**
-[LinkedIn](#) · [GitHub](#) · [Email](#)
-
-*This project was completed as the capstone for the Google Advanced Data Analytics Professional Certificate on Coursera.*
