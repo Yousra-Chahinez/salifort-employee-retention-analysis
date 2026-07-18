@@ -78,11 +78,10 @@ The **Random Forest** model outperformed the Decision Tree and generalized well 
 
 ## Business Recommendations
 
-- **Monitor and improve employee satisfaction** through regular pulse surveys and feedback channels.
-- **Watch workload extremes** — flag employees with very low or very high project counts and monthly hours for check-ins.
-- **Revisit promotion practices** — the complete absence of promotions among departing employees suggests career stagnation is a major driver of attrition.
-- **Focus retention efforts on mid-tenure employees**, who showed elevated attrition risk.
-- Use the model's output as a **screening tool**, not a final decision-maker — flagged employees should prompt a human conversation, not automatic action.
+- **Monitor and improve employee satisfaction** through regular surveys and feedback channels.
+- **Watch workload extremes** — monitor employees with high workloads or long working hours to reduce the risk of burnout.
+- **Revisit promotion practices** — conduct regular career development and performance discussions, particularly for employees who have spent several years at the company.
+
 
 ## Repository Structure
 
