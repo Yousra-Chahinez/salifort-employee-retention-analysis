@@ -71,11 +71,8 @@ Because the cost of **missing** an employee who is about to leave (a false negat
 The **Random Forest** model outperformed the Decision Tree and generalized well to unseen data, with validation and test scores closely matching training performance — indicating no significant overfitting.
 
 **Top predictors of attrition** (Random Forest feature importance):
-1. Satisfaction level
-2. Number of projects
-3. Time spent at the company (tenure)
-4. Average monthly hours
-5. Last evaluation score
+![Random Forest Feature Importance](images/rf_feature_importance.png)
+
 
 ## Business Recommendations
 
