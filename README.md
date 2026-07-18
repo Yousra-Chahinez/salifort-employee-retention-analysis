@@ -65,8 +65,10 @@ Because the cost of **missing** an employee who is about to leave (a false negat
 
 | Model | Precision | Recall | F1 | Accuracy |
 |---|---|---|---|---|
-| Decision Tree | — | — | — | — |
-| **Random Forest (champion)** | ~0.99 | — | — | — |
+| Decision Tree val | 0.827740 | 0.929648 | 0.875740 | 0.956214
+| Random Forest val | 0.978552 | 0.917085 | 0.94682 | 0.982902
+| Random Forest test | 0.986667 | 0.929648 | 0.957309 | 0.986244
+
 
 The **Random Forest** model outperformed the Decision Tree and generalized well to unseen data, with validation and test scores closely matching training performance — indicating no significant overfitting.
 
